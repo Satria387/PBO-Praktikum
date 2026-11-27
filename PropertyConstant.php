@@ -2,7 +2,7 @@
 
 namespace Pbo\MarketPlace;
 
-class Produk {
+trait Produk {
 
     //property
     private string $kode;
@@ -56,8 +56,6 @@ class Produk {
         return $this->stok;
     }
     
-
-
 
     public function pajak() {
         return self::PAJAK * 100; //11%

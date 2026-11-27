@@ -11,16 +11,16 @@ $produk -> setKode('P001') -> setNama ('Laptop') -> setHarga (1000000) -> setSto
 
 
 //hasil
-echo "produk: ". $produk-> getNama();
+echo "Produk: ". $produk-> getNama();
 echo "<br/>";
 
-echo "harga: Rp. ". $produk-> getHarga();
+echo "Harga: Rp. ". $produk-> getHarga();
 echo "<br/>";
 
-echo "stok: ". $produk-> getStok();
+echo "Stok: ". $produk-> getStok();
 echo "<br/>";
 
-echo "pajak: ". $produk->pajak() . "%";
+echo "Pajak: ". $produk->pajak() . "%";
 echo "<br/>";
 
-echo "total harga setelah pajak: . Rp". $produk->total();
+echo "Total harga setelah pajak: . Rp". $produk->total();
